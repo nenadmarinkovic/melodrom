@@ -69,6 +69,14 @@ const GlobalStyle = createGlobalStyle`
 	margin: 0px auto;
   }
 
+  .cover-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.4;
+  }
   .container-impressum {
     width: 820px;
     max-width: 100%;
@@ -972,7 +980,7 @@ li a
 .ReactPiano__Keyboard {
     /* Used for absolute positioning of .ReactPiano__Key--accidental elements */
     position: relative;
-    width: 600px !important;
+    width: 100% !important;
     height: 232.6446px !important;
     /* Used to lay out .ReactPiano__Key--natural elements */
     display: flex;
@@ -1000,9 +1008,7 @@ li a
     top: 0;
   }
   
-  /*
-   * Styles of natural notes (white keys)
-   */
+
   .ReactPiano__Key--natural {
     background: white;
     border: 1px solid white;
@@ -1026,7 +1032,7 @@ li a
    * Styles of "active" or pressed-down keys
    */
   .ReactPiano__Key--active {
-    background: #3ac8da;
+    background: #515B67;
   }
   
   .ReactPiano__Key--active.ReactPiano__Key--accidental {
@@ -1037,7 +1043,7 @@ li a
   }
   
   .ReactPiano__Key--active.ReactPiano__Key--natural {
-    border: 1px solid #3ac8da;
+    border: 1px solid #515B67;
     /* Slight height reduction for "pushed-down" effect */
     height: 98%;
   }
@@ -1068,6 +1074,7 @@ li a
     font-size: 12px;
     text-align: center;
     text-transform: capitalize;
+    font-family: "Gotham";
     /* Disable text selection */
     -webkit-user-select: none;
        -moz-user-select: none;

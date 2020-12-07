@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Banner from "../components/Banner";
+import About from "../components/About";
+import Cover from "../components/Cover";
 import GlobalStyle from "../styles/globalStyles";
 
 export default function Home() {
@@ -11,9 +13,9 @@ export default function Home() {
       </Head>
       <GlobalStyle />
 
- 
       <Banner />
-   
+      {/* <About /> */}
+      <Cover />
     </>
   );
 }

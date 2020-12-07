@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const BannerWrap = styled.div`
   display: flex;
-  height: 800px;
+  height: 100vh;
 `;
 
 export const Text = styled.div``;
@@ -12,9 +12,6 @@ export const BannerLeft = styled.div`
   z-index: 1;
   position: relative;
   padding: 60px 80px 80px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 `;
 
 export const BannerRight = styled.div`
@@ -31,7 +28,9 @@ export const Piano = styled.div`
   padding-top: 210px;
 `;
 
-export const BannerText = styled.div``;
+export const BannerText = styled.div`
+  padding-top: 210px;
+`;
 
 export const Logo = styled.div`
   font-size: 21px;
@@ -40,18 +39,20 @@ export const Logo = styled.div`
 `;
 
 export const LogoText = styled.div`
-  font-size: 20px;
+  font-size: 21px;
   margin-left: 10px;
-  font-style: italic;
+  font-family: "Gotham";
 `;
 
 export const MainText = styled.div`
   font-size: 48px;
+  font-family: "Gotham";
+  line-height: 1.3;
 `;
 
 export const SubText = styled.div`
-  font-size: 17px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.8;
   margin-top: 20px;
 `;
 
@@ -69,6 +70,7 @@ export const HeaderItems = styled.div`
 export const HeaderItem = styled.div`
   margin-left: 40px;
   font-size: 16px;
+  font-family: "Gotham";
 `;
 
 export const Arrow = styled.svg`
@@ -85,4 +87,10 @@ export const FlexArrow = styled.div`
 export const ArrowText = styled.p`
   font-family: "Gotham";
   font-size: 15px;
+`;
+
+export const PianoText = styled.div`
+  text-align: end;
+  margin-top: 20px;
+  font-size: 14px;
 `;

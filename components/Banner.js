@@ -14,7 +14,7 @@ import {
   FlexArrow,
   ArrowText,
   Piano,
-  BannerText
+  BannerText,
 } from "../styles/Banner";
 
 import App from "../components/Dynamic";
@@ -30,9 +30,9 @@ function Banner() {
         <BannerText>
           <MainText>Добродошли у Мелодром</MainText>
           <SubText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation
+            Постоји много верзија и варијација Lorem Ipsum пасуса, али већина је
+            претрпела некакву промену, било да је то додавање неког хумора или
+            насумична респодела речи која на крају не изгледа уверљиво.
           </SubText>
           <FlexArrow>
             <ArrowText>Cазнај више</ArrowText>
@@ -71,6 +71,7 @@ function Banner() {
       <BannerRight>
         <HeaderItems>
           <HeaderItem>Слободни термини</HeaderItem>
+          <HeaderItem>Галерија</HeaderItem>
           <HeaderItem>Локација</HeaderItem>
           <HeaderItem>Контакт</HeaderItem>
         </HeaderItems>
