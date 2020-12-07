@@ -1,0 +1,85 @@
+import React from "react";
+import Image from "next/image";
+import {
+  BannerWrap,
+  BannerRight,
+  BannerLeft,
+  Logo,
+  LogoText,
+  HeaderItems,
+  HeaderItem,
+  MainText,
+  SubText,
+  Arrow,
+  FlexArrow,
+  ArrowText,
+  Piano,
+  BannerText
+} from "../styles/Banner";
+
+import App from "../components/Dynamic";
+
+function Banner() {
+  return (
+    <BannerWrap>
+      <BannerLeft>
+        <Logo>
+          <Image src="/piano.svg" width={30} height={30} />
+          <LogoText>Мелодром</LogoText>
+        </Logo>
+        <BannerText>
+          <MainText>Добродошли у Мелодром</MainText>
+          <SubText>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation
+          </SubText>
+          <FlexArrow>
+            <ArrowText>Cазнај више</ArrowText>
+            <Arrow
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              viewBox="0 0 476.213 476.213"
+              style={{ enableBackground: "new 0 0 476.213 476.213" }}
+            >
+              <polygon
+                points="345.606,107.5 324.394,128.713 418.787,223.107 0,223.107 0,253.107 418.787,253.107 324.394,347.5 
+	345.606,368.713 476.213,238.106 "
+              />
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+            </Arrow>
+          </FlexArrow>
+        </BannerText>
+      </BannerLeft>
+      <BannerRight>
+        <HeaderItems>
+          <HeaderItem>Слободни термини</HeaderItem>
+          <HeaderItem>Локација</HeaderItem>
+          <HeaderItem>Контакт</HeaderItem>
+        </HeaderItems>
+        <Piano>
+          <App />
+        </Piano>
+      </BannerRight>
+    </BannerWrap>
+  );
+}
+
+export default Banner;

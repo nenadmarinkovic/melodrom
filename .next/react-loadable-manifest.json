@@ -1,0 +1,154 @@
+{
+  "../components/Piano": [
+    {
+      "id": "./components/DimensionsProvider.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./components/Piano.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./components/SoundfontProvider.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/createClass.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/defineProperty.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/inherits.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/typeof.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/adsr/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/audio-loader/lib/base64.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/audio-loader/lib/fetch.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/audio-loader/lib/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/classnames/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/just-range/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/lodash.difference/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/midimessage/dist/index.min.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/note-parser/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/prop-types/checkPropTypes.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/prop-types/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-piano/dist/react-piano.esm.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/sample-player/lib/events.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/sample-player/lib/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/sample-player/lib/midi.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/sample-player/lib/notes.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/sample-player/lib/player.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/sample-player/lib/scheduler.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/sample-player/node_modules/note-parser/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/soundfont-player/lib/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/soundfont-player/lib/legacy.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/global.js",
+      "file": "static/chunks/1.js"
+    }
+  ],
+  "./dev/noop": [
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/0.js"
+    }
+  ]
+}
