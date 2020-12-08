@@ -72,7 +72,7 @@ export default function ContactForm() {
       .then((response) => {
         handleServerResponse(
           true,
-          "Thank you, your message has been submitted."
+          "Хвала Вам, Ваша порука је послата."
         );
       })
       .catch((error) => {
