@@ -51,7 +51,7 @@ function SamplePrevArrow(props) {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clip-path="url(#clip0)">
+        <g clipPath="url(#clip0)">
           <path
             d="M130.607 107.5L151.819 128.713L57.426 223.107H476.213V253.107H57.426L151.819 347.5L130.607 368.713L0 238.106L130.607 107.5Z"
             fill="black"

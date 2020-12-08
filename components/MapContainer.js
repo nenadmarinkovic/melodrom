@@ -23,9 +23,9 @@ function MapContainer() {
         <TerminText>
           <div>
             <svg
-            fill="white"
+              fill="white"
               id="Capa_1"
-              enable-background="new 0 0 443.294 443.294"
+              enableBackground="new 0 0 443.294 443.294"
               height="30"
               viewBox="0 0 443.294 443.294"
               width="30"
@@ -36,17 +36,14 @@ function MapContainer() {
             </svg>
           </div>
 
-          <span style={{marginLeft: "20px"}}>
-            {" "}
-           Понедељак
-          </span>
+          <span style={{ marginLeft: "20px" }}> Понедељак</span>
         </TerminText>
         <TerminText>
           <div>
             <svg
-            fill="white"
+              fill="white"
               id="Capa_1"
-              enable-background="new 0 0 443.294 443.294"
+              enableBackground="new 0 0 443.294 443.294"
               height="30"
               viewBox="0 0 443.294 443.294"
               width="30"
@@ -57,17 +54,14 @@ function MapContainer() {
             </svg>
           </div>
 
-          <span style={{marginLeft: "20px"}}>
-            {" "}
-           Уторак
-          </span>
+          <span style={{ marginLeft: "20px" }}> Уторак</span>
         </TerminText>
         <TerminText>
           <div>
             <svg
-            fill="white"
+              fill="white"
               id="Capa_1"
-              enable-background="new 0 0 443.294 443.294"
+              enableBackground="new 0 0 443.294 443.294"
               height="30"
               viewBox="0 0 443.294 443.294"
               width="30"
@@ -78,17 +72,14 @@ function MapContainer() {
             </svg>
           </div>
 
-          <span style={{marginLeft: "20px"}}>
-            {" "}
-           Среда
-          </span>
+          <span style={{ marginLeft: "20px" }}> Среда</span>
         </TerminText>
         <TerminText>
           <div>
             <svg
-            fill="white"
+              fill="white"
               id="Capa_1"
-              enable-background="new 0 0 443.294 443.294"
+              enableBackground="new 0 0 443.294 443.294"
               height="30"
               viewBox="0 0 443.294 443.294"
               width="30"
@@ -99,17 +90,14 @@ function MapContainer() {
             </svg>
           </div>
 
-          <span style={{marginLeft: "20px"}}>
-            {" "}
-           Четвртак
-          </span>
+          <span style={{ marginLeft: "20px" }}> Четвртак</span>
         </TerminText>
         <TerminText>
           <div>
             <svg
-            fill="white"
+              fill="white"
               id="Capa_1"
-              enable-background="new 0 0 443.294 443.294"
+              enableBackground="new 0 0 443.294 443.294"
               height="30"
               viewBox="0 0 443.294 443.294"
               width="30"
@@ -120,10 +108,7 @@ function MapContainer() {
             </svg>
           </div>
 
-          <span style={{marginLeft: "20px"}}>
-            {" "}
-           Петак
-          </span>
+          <span style={{ marginLeft: "20px" }}> Петак</span>
         </TerminText>
       </BannerRight>
     </BannerWrap>
