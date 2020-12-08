@@ -15,11 +15,11 @@ function Map() {
     <div className="container">
       <MapContainer
         center={[44.186767, 21.106179]}
-        zoom={15}
+        zoom={16}
         attributionControl={true}
         scrollWheelZoom={false}
       >
-        <TileLayer url='https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png' />
+        <TileLayer url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png" />
       </MapContainer>
     </div>
   );
