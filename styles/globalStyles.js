@@ -709,6 +709,8 @@ svg.leaflet-image-layer.leaflet-interactive path {
     /* top: 0; */
     bottom: 0;
 	top: -75px;
+	font-family: "Gotham";
+	font-size: 14px;
     left: 148px;
 	transform: translate(-50%, -50%);
 	

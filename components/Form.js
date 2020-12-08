@@ -10,7 +10,7 @@ import {
   TextArea,
   Error,
   Message,
-  FormText
+  FormText,
 } from "../styles/Form";
 
 export default function ContactForm() {
@@ -84,10 +84,13 @@ export default function ContactForm() {
     <>
       <div className="container-form">
         <FormText>
-          Спремни сте да закорачите у чудесан свет музике?
+          За више информација контактирајте Мелодром на број телефона:
           <br></br>
-          Контактирајте Мелодром на број телефона 060 1234567, или уз помоћ
-          форме.
+          <br></br>
+          060/123456789
+          <br></br>
+          <br></br>
+          Или путем форме.
         </FormText>
       </div>
 
