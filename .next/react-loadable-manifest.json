@@ -1,7 +1,7 @@
 {
   "../components/Map": [
     {
-      "id": "./assets/marker.svg",
+      "id": "./assets/treble-clef.svg",
       "file": "static/chunks/1.js"
     },
     {
@@ -198,6 +198,10 @@
     },
     {
       "id": "./node_modules/scheduler/tracing.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./styles/Map.js",
       "file": "static/chunks/1.js"
     }
   ],

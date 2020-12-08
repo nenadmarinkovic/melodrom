@@ -14,8 +14,16 @@ function MapContainer() {
   return (
     <BannerWrap>
       <BannerLeft>
-        <ReasonTitle>Локација</ReasonTitle>
-        <MainText>Николе Пашића 20 34220 Лапово</MainText>
+        <ReasonTitle>Како до Мелодрома?</ReasonTitle>
+        <MainText>
+          {" "}
+          Мелодром се налази недалеко од зграде општине Лапово, у улици Николе
+          Пашића 7.
+          <br></br>
+          <br></br>
+          Уколико немате начина да сами дођете до нас, за Вас и ваше
+          дете имамо организован превоз...
+        </MainText>
         <MapComponent />
       </BannerLeft>
       <BannerRight>

@@ -1,8 +1,9 @@
 import React from "react";
 import { MapContainer, Marker, Tooltip, TileLayer } from "react-leaflet";
+import { MapText } from "../styles/Map";
 import L from "leaflet";
 
-import markerIcon from "../assets/marker.svg";
+import markerIcon from "../assets/treble-clef.svg";
 
 const icon = new L.Icon({
   iconUrl: markerIcon,
@@ -14,12 +15,19 @@ function Map() {
   return (
     <div className="container">
       <MapContainer
-        center={[44.186767, 21.106179]}
-        zoom={16}
+        center={[44.18751798821183, 21.106120888418747]}
+        zoom={15}
         attributionControl={true}
         scrollWheelZoom={false}
       >
         <TileLayer url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png" />
+        <Marker position={[44.18751798821183, 21.106120888418747]} icon={icon}>
+            <Tooltip permanent>
+              <MapText>
+             Недалеко од самог центра Лапова, налази се Школа клавира и солфеђа Мелодром.
+              </MapText>
+            </Tooltip>
+          </Marker>
       </MapContainer>
     </div>
   );

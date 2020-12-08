@@ -142,9 +142,9 @@ export default function ContactForm() {
             <Button type="submit" disabled={status.submitting}>
               {!status.submitting
                 ? !status.submitted
-                  ? "Submit"
-                  : "Submitted"
-                : "Submitting..."}
+                  ? "Пошаљи"
+                  : "Послато"
+                : "Шаље се..."}
             </Button>
           </FormContainer>
           {status.info.error && <Error>Error: {status.info.msg}</Error>}
