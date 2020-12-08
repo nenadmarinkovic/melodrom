@@ -2,32 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 
-@font-face {
-    font-family: "Lora";
-    src: url("Lora-Bold") format("woff2"),
-      url("fonts/Lora-Bold.woff") format("woff");
-    font-weight: bold;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  @font-face {
-    font-family: "Lora";
-    src: url("fonts/Lora-Regular.woff2") format("woff2"),
-      url("fonts/Lora-Regular.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
 
-  @font-face {
-    font-family: "Lora";
-    src: url("fonts/Lora-Italic.woff2") format("woff2"),
-      url("fonts/Lora-Italic.woff") format("woff");
-    font-weight: normal;
-    font-style: italic;
-    font-display: block;
-  }
 
   @font-face {
     font-family: "Gotham";
@@ -42,7 +17,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     padding: 0;
     margin: 0;
-    font-family: "Lora", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    font-family: "Gotham", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
   
@@ -69,13 +44,19 @@ const GlobalStyle = createGlobalStyle`
 	margin: 0px auto;
   }
 
+  .container-form {
+    width: 700px;
+    max-width: 100%;
+	margin: 0px auto;
+  }
+
   .cover-image {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: auto;
-    opacity: 0.4;
+    opacity: 1;
   }
   .container-impressum {
     width: 820px;
@@ -132,13 +113,10 @@ const GlobalStyle = createGlobalStyle`
 }
 
   .leaflet-container {
-    border-radius: 30px;
     padding: 30px;
     margin-top: 70px;
     height: 480px;
-    box-shadow: 0 10px 20px rgba(30, 40, 92, 0.1);
-	margin-bottom: 150px;
-
+	margin-bottom: 30px;
 	margin-left: 15px;
 	margin-right: 15px;
 	
@@ -453,7 +431,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	display: block;
 	text-align: center;
 	text-decoration: none;
-	color: black;
+	color: #14181D;
 	}
 .leaflet-bar a,
 .leaflet-control-layers-toggle {
@@ -940,7 +918,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
   #menu ul {
 	margin-top: 0px
     padding: 0px
-    color: black
+    color: #14181D
     list-style-type: none
     text-align: left
   }
@@ -957,16 +935,20 @@ svg.leaflet-image-layer.leaflet-interactive path {
     
 .fa {
 
-	color: black
+	color: #14181D
 	padding-right: 8px
 }
 
 li a
   text-decoration: none
-  color: black
+  color: #14181D
 
 #menu.isopen {
 	transform: none
+}
+
+.slick-dots {
+bottom: -35px;
 }
 
 
@@ -995,7 +977,7 @@ li a
    * Styles of accidental notes (flat or sharp)
    */
   .ReactPiano__Key--accidental {
-    background: black;
+    background: #14181D;
     border: 1px solid #fff;
     border-top: 1px solid transparent;
     // border-radius: 0 0 4px 4px;
@@ -1037,7 +1019,7 @@ li a
   
   .ReactPiano__Key--active.ReactPiano__Key--accidental {
     border: 1px solid #fff;
-    border-top: 1px solid black;
+    border-top: 1px solid #14181D;
     /* Slight height reduction for "pushed-down" effect */
     height: 65%;
   }

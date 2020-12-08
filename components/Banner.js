@@ -30,9 +30,9 @@ function Banner() {
         <BannerText>
           <MainText>Добродошли у Мелодром</MainText>
           <SubText>
-            Постоји много верзија и варијација Lorem Ipsum пасуса, али већина је
-            претрпела некакву промену, било да је то додавање неког хумора или
-            насумична респодела речи која на крају не изгледа уверљиво.
+            Мелодром је јединствена школа солфеђа и клавира. На музичку
+            радионицу Мелодром слећу фантастични звукови чак и из најудаљенијих
+            делова света. Само да би били доступни свима у Мелодрому.
           </SubText>
           <FlexArrow>
             <ArrowText>Cазнај више</ArrowText>
@@ -70,9 +70,8 @@ function Banner() {
       </BannerLeft>
       <BannerRight>
         <HeaderItems>
-          <HeaderItem>Слободни термини</HeaderItem>
-          <HeaderItem>Галерија</HeaderItem>
-          <HeaderItem>Локација</HeaderItem>
+          <HeaderItem>Више о школи</HeaderItem>
+          <HeaderItem>Локација и слободни термини</HeaderItem>
           <HeaderItem>Контакт</HeaderItem>
         </HeaderItems>
         <Piano>

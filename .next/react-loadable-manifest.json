@@ -1,148 +1,338 @@
 {
+  "../components/Map": [
+    {
+      "id": "./assets/marker.svg",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./components/Map.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@react-leaflet/core/esm/attribution.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@react-leaflet/core/esm/circle.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@react-leaflet/core/esm/component.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@react-leaflet/core/esm/context.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@react-leaflet/core/esm/control.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@react-leaflet/core/esm/div-overlay.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@react-leaflet/core/esm/dom.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@react-leaflet/core/esm/element.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@react-leaflet/core/esm/events.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@react-leaflet/core/esm/generic.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@react-leaflet/core/esm/grid-layer.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@react-leaflet/core/esm/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@react-leaflet/core/esm/layer.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@react-leaflet/core/esm/media-overlay.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@react-leaflet/core/esm/pane.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@react-leaflet/core/esm/path.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/leaflet/dist/leaflet-src.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-dom/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/AttributionControl.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/Circle.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/CircleMarker.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/FeatureGroup.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/GeoJSON.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/ImageOverlay.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/LayerGroup.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/LayersControl.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/MapConsumer.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/MapContainer.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/Marker.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/Pane.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/Polygon.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/Polyline.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/Popup.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/Rectangle.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/SVGOverlay.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/ScaleControl.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/TileLayer.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/Tooltip.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/VideoOverlay.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/WMSTileLayer.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/ZoomControl.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/hooks.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-leaflet/esm/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/scheduler/cjs/scheduler.development.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/scheduler/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/scheduler/tracing.js",
+      "file": "static/chunks/1.js"
+    }
+  ],
   "../components/Piano": [
     {
       "id": "./components/DimensionsProvider.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./components/Piano.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./components/SoundfontProvider.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/@babel/runtime/helpers/esm/createClass.js",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/esm/defineProperty.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/@babel/runtime/helpers/esm/inherits.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/@babel/runtime/helpers/esm/typeof.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/adsr/index.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/audio-loader/lib/base64.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/audio-loader/lib/fetch.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/audio-loader/lib/index.js",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/classnames/index.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/just-range/index.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/lodash.difference/index.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/midimessage/dist/index.min.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/note-parser/index.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/prop-types/checkPropTypes.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/prop-types/factoryWithTypeCheckers.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/prop-types/index.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/react-piano/dist/react-piano.esm.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/sample-player/lib/events.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/sample-player/lib/index.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/sample-player/lib/midi.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/sample-player/lib/notes.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/sample-player/lib/player.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/sample-player/lib/scheduler.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/sample-player/node_modules/note-parser/index.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/soundfont-player/lib/index.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/soundfont-player/lib/legacy.js",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/webpack/buildin/global.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     }
   ],
   "./dev/noop": [
