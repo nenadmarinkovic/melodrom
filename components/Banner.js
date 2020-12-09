@@ -41,7 +41,7 @@ function Banner() {
           </SubText>
           <FlexArrow>
             <ScrollIntoView selector="#about" smooth={true}>
-              <ArrowText>Cазнај више</ArrowText>
+              <ArrowText>Cазнајте више</ArrowText>
             </ScrollIntoView>
             <ScrollIntoView selector="#about" smooth={true}>
               <Arrow

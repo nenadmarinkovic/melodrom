@@ -2,7 +2,11 @@ import styled from "styled-components";
 
 export const BannerWrap = styled.div`
   display: flex;
- 
+`;
+
+export const SVG = styled.svg`
+  width: 30px;
+  height: 30px;
 `;
 
 export const BannerLeft = styled.div`
@@ -33,16 +37,16 @@ export const ReasonTitle = styled.div`
 export const MainText = styled.div`
   font-size: 16px;
   line-height: 1.5;
-  margin-top: 30px;
+  margin-top: 40px;
   align-text: center;
   display: flex;
+  width: 100%;
+  justify-content: space-between;
 `;
 
 export const MainTextLeft = styled.div`
   font-size: 16px;
   line-height: 1.5;
-  margin-top: 30px;
+  margin-top: 40px;
   text-align: center;
 `;
-
-
