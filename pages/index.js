@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Мелодром - Школа клавира и солфеђа</title>
+        <link rel="icon" href="/piano.png" />
         <link
           rel="stylesheet"
           type="text/css"
