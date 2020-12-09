@@ -20,7 +20,7 @@ function Map() {
         attributionControl={true}
         scrollWheelZoom={false}
       >
-        <TileLayer url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png" />
+        <TileLayer url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png?api_key=846d4a58-60b9-4494-898a-7be5165ae8c5" />
         <Marker position={[44.18751798821183, 21.106120888418747]} icon={icon}>
             <Tooltip permanent>
               <MapText>
