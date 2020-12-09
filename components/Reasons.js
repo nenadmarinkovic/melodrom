@@ -6,14 +6,14 @@ import {
   BannerLeft,
   MainText,
   ReasonTitle,
-  MainTextLeft
+  MainTextLeft,
 } from "../styles/Reasons";
 
 function Reasons() {
   return (
     <BannerWrap>
       <BannerLeft>
-        <ReasonTitle>Зашто музика?</ReasonTitle>
+        <ReasonTitle id="about">Зашто музика?</ReasonTitle>
         <MainText>
           <svg
             version="1.1"

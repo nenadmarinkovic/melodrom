@@ -18,7 +18,9 @@
     "react-dom": "17.0.1",
     "react-leaflet": "^3.0.2",
     "react-piano": "^3.1.3",
+    "react-reveal": "^1.2.2",
     "react-scripts": "^4.0.1",
+    "react-scroll-into-view": "^1.8.2",
     "react-slick": "^0.27.13",
     "soundfont-player": "^0.12.0",
     "styled-components": "^5.2.1"

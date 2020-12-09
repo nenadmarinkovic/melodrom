@@ -113,9 +113,9 @@ const GlobalStyle = createGlobalStyle`
 }
 
   .leaflet-container {
-    padding: 30px;
-    margin-top: 70px;
-    height: 480px;
+    padding: 20px;
+    margin-top: 100px;
+    height: 420px;
 	margin-bottom: 30px;
 	margin-left: 15px;
 	margin-right: 15px;
@@ -732,7 +732,6 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	-ms-user-select: none;
 	user-select: none;
 	pointer-events: none;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.4);
 	width: 300px;
 	text-align: center;
 	background-color: #d7e3e5;

@@ -83,7 +83,7 @@ export default function ContactForm() {
   return (
     <>
       <div className="container-form">
-        <FormText>
+        <FormText id="contact">
           За више информација контактирајте Мелодром на број телефона:
           <br></br>
           <br></br>

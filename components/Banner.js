@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import {
   BannerWrap,
   BannerRight,
@@ -16,6 +17,7 @@ import {
   Piano,
   BannerText,
 } from "../styles/Banner";
+import ScrollIntoView from "react-scroll-into-view";
 
 import App from "../components/Dynamic";
 
@@ -25,7 +27,10 @@ function Banner() {
       <BannerLeft>
         <Logo>
           <Image src="/piano.svg" width={30} height={30} />
-          <LogoText>Мелодром</LogoText>
+
+          <LogoText>
+            <Link href="/">Мелодром</Link>
+          </LogoText>
         </Logo>
         <BannerText>
           <MainText>Добродошли у Мелодром</MainText>
@@ -35,7 +40,10 @@ function Banner() {
             делова света. Само да би били доступни свима у Мелодрому.
           </SubText>
           <FlexArrow>
-            <ArrowText>Cазнај више</ArrowText>
+            <ScrollIntoView selector="#about" smooth={true}>
+              <ArrowText>Cазнај више</ArrowText>
+            </ScrollIntoView>
+
             <Arrow
               version="1.1"
               id="Layer_1"
@@ -70,9 +78,17 @@ function Banner() {
       </BannerLeft>
       <BannerRight>
         <HeaderItems>
-          <HeaderItem>Више о школи</HeaderItem>
-          <HeaderItem>Локација и слободни термини</HeaderItem>
-          <HeaderItem>Контакт</HeaderItem>
+          <ScrollIntoView selector="#about" smooth={true}>
+            <HeaderItem>Више о школи</HeaderItem>
+          </ScrollIntoView>
+
+          <ScrollIntoView selector="#location" smooth={true}>
+            <HeaderItem>Локација и слободни термини</HeaderItem>
+          </ScrollIntoView>
+
+          <ScrollIntoView selector="#contact" smooth={true}>
+            <HeaderItem>Контакт</HeaderItem>
+          </ScrollIntoView>
         </HeaderItems>
         <Piano>
           <App />

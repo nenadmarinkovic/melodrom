@@ -14,9 +14,8 @@ function MapContainer() {
   return (
     <BannerWrap>
       <BannerLeft>
-        <ReasonTitle>Како до Мелодрома?</ReasonTitle>
+        <ReasonTitle id="location">Како до Мелодрома?</ReasonTitle>
         <MainText>
-          {" "}
           Мелодром се налази недалеко од зграде општине Лапово, у улици Николе
           Пашића 7.
           <br></br>

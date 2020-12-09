@@ -71,6 +71,9 @@ export const HeaderItem = styled.div`
   margin-left: 40px;
   font-size: 16px;
   font-family: "Gotham";
+  :hover {
+    cursor: pointer;
+  }
 `;
 
 export const Arrow = styled.svg`
@@ -82,6 +85,9 @@ export const FlexArrow = styled.div`
   display: flex;
   align-items: center;
   margin-top: 20px;
+  :hover {
+    cursor: pointer;
+  }
 `;
 
 export const ArrowText = styled.p`
