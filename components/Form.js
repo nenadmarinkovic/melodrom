@@ -121,7 +121,7 @@ export default function ContactForm() {
             </FlexItem>
 
             <FlexItem>
-              <FormLabel htmlFor="Email">Ваша број телефона:</FormLabel>
+              <FormLabel htmlFor="Email">Ваш број телефона:</FormLabel>
               <FormInput
                 id="Email"
                 type="Email"
