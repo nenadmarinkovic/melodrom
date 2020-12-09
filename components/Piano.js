@@ -33,7 +33,7 @@ function BasicPiano() {
             disabled={isLoading}
             keyboardShortcuts={keyboardShortcuts}
           />
-          <PianoText>Свирај кликом или тастатуром.</PianoText>
+          <PianoText>Свирајте кликом или тастатуром.</PianoText>
         </div>
       )}
     />

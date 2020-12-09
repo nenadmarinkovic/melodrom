@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const BannerWrap = styled.div`
   display: flex;
-  height: 100vh;
 `;
 
 export const Text = styled.div``;
@@ -11,7 +10,7 @@ export const BannerLeft = styled.div`
   width: 50%;
   z-index: 1;
   position: relative;
-  padding: 60px 80px 80px;
+  padding: 60px 80px 180px;
 `;
 
 export const BannerRight = styled.div`
@@ -19,7 +18,7 @@ export const BannerRight = styled.div`
   background: #d7e3e5;
   z-index: 1;
   position: relative;
-  padding: 60px 80px 80px;
+  padding: 60px 80px 180px;
   display: flex;
   flex-direction: column;
 `;
@@ -42,6 +41,12 @@ export const LogoText = styled.div`
   font-size: 21px;
   margin-left: 10px;
   font-family: "Gotham";
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+  :hover {
+    cursor: pointer;
+    border-bottom: 1px solid black;
+  }
 `;
 
 export const MainText = styled.div`
@@ -71,28 +76,36 @@ export const HeaderItem = styled.div`
   margin-left: 40px;
   font-size: 16px;
   font-family: "Gotham";
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
   :hover {
     cursor: pointer;
+    border-bottom: 1px solid black;
   }
 `;
 
 export const Arrow = styled.svg`
   width: 35px;
   height: 25px;
+  margin-left: 5px;
+  margin-top: 3px;
+  :hover {
+    cursor: pointer;
+  }
 `;
 
 export const FlexArrow = styled.div`
   display: flex;
   align-items: center;
   margin-top: 20px;
-  :hover {
-    cursor: pointer;
-  }
 `;
 
 export const ArrowText = styled.p`
   font-family: "Gotham";
   font-size: 15px;
+  :hover {
+    cursor: pointer;
+  }
 `;
 
 export const PianoText = styled.div`
