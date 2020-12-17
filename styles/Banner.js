@@ -15,7 +15,8 @@ export const BannerLeft = styled.div`
 
 export const BannerRight = styled.div`
   width: 50%;
-  background: #d7e3e5;
+  background: #7a909d;
+  color: white;
   z-index: 1;
   position: relative;
   padding: 60px 80px 180px;
@@ -80,7 +81,7 @@ export const HeaderItem = styled.div`
   transition: 0.3s;
   :hover {
     cursor: pointer;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
   }
 `;
 

@@ -6,13 +6,13 @@ function About() {
   return (
     <Wrap>
       <Image
-        src="/piano-5.jpg"
-        width={350}
-        height={120}
+        src="/cover.jpg"
+        width={650}
+        height={230}
         layout={"responsive"}
         className="cover-image"
       />
-   
+     
     </Wrap>
   );
 }

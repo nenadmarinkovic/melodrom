@@ -35,7 +35,7 @@ function Banner() {
         <BannerText>
           <MainText>Добродошли у Мелодром</MainText>
           <SubText>
-            Мелодром је јединствена школа солфеђа и клавира. На музичку
+            Мелодром је јединствена радионица солфеђа и клавира. На музичку
             радионицу Мелодром слећу фантастични звукови чак и из најудаљенијих
             делова света. Само да би били доступни свима у Мелодрому.
           </SubText>
@@ -80,11 +80,11 @@ function Banner() {
       <BannerRight>
         <HeaderItems>
           <ScrollIntoView selector="#about" smooth={true}>
-            <HeaderItem>Више о школи</HeaderItem>
+            <HeaderItem>О радионици</HeaderItem>
           </ScrollIntoView>
 
           <ScrollIntoView selector="#location" smooth={true}>
-            <HeaderItem>Локација и слободни термини</HeaderItem>
+            <HeaderItem>Слободни термини и локација</HeaderItem>
           </ScrollIntoView>
 
           <ScrollIntoView selector="#contact" smooth={true}>

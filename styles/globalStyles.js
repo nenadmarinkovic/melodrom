@@ -1,9 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-
-
-
   @font-face {
     font-family: "Gotham";
     src: url("fonts/GothamPro.woff") format("woff2"),
@@ -51,12 +48,34 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .cover-image {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-    opacity: 1;
+	position: relative;
+	
+  }
+
+  .slick-prev:before {
+	  display: none;
+  }
+
+  .slick-next:before {
+	display: none;
+}
+
+  .slick-slide {
+	position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .cover-text {
+	position: absolute;
+	top: 30%;
+	line-height: 1.5;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 26px;
+	color: white;
+	text-align: center;
+	
   }
   .container-impressum {
     width: 820px;
@@ -284,7 +303,7 @@ const GlobalStyle = createGlobalStyle`
 	bottom: 0;
 	}
 .leaflet-left {
-	left: 0;
+	right: 10px;
 	}
 .leaflet-control {
 	float: left;
@@ -725,7 +744,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 /* Base styles for the element that has a tooltip */
 .leaflet-tooltip {
 	position: absolute;
-	padding: 20px;	
+	padding: 23px;	
 	color: black;
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -734,7 +753,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	pointer-events: none;
 	width: 300px;
 	text-align: center;
-	background-color: #d7e3e5;
+	background-color: white;
 
 	@media (max-width: 480px) {
 		width: 180px;

@@ -83,8 +83,8 @@ export default function ContactForm() {
   return (
     <>
       <div className="container-form">
-        <FormText id="contact">
-          За више информација контактирајте Мелодром на број телефона:
+        <FormText>
+          Заказивање термина и више информација о часовима, можете добити преко телефона:
           <br></br>
           <br></br>
           060/123456789

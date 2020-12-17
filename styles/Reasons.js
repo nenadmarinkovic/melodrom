@@ -14,7 +14,8 @@ export const BannerLeft = styled.div`
   z-index: 1;
   position: relative;
   padding: 30px 80px 80px;
-  background: #e7dcdc;
+  background: #7a909d;
+  color: white;
 `;
 
 export const BannerRight = styled.div`
@@ -27,8 +28,12 @@ export const BannerRight = styled.div`
 `;
 
 export const ReasonTitle = styled.div`
-  font-size: 16px;
+  font-family: "Gotham", serif;
+  letter-spacing: 1px;
   text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.8;
   text-align: center;
   line-height: 1.5;
   padding-top: 50px;
@@ -42,6 +47,8 @@ export const MainText = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
+  padding: 18px;
+  text-align: center;
 `;
 
 export const MainTextLeft = styled.div`

@@ -13,6 +13,7 @@ function SampleNextArrow(props) {
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
+        fill="white"
         viewBox="0 0 476.213 476.213"
         style={{ enableBackground: "new 0 0 476.213 476.213" }}
       >
@@ -48,13 +49,14 @@ function SamplePrevArrow(props) {
         width="20"
         height="20"
         viewBox="0 0 477 477"
-        fill="none"
+        fill="white"
         xmlns="http://www.w3.org/2000/svg"
+        style={{ enableBackground: "new 0 0 476.213 476.213" }}
       >
         <g clipPath="url(#clip0)">
           <path
             d="M130.607 107.5L151.819 128.713L57.426 223.107H476.213V253.107H57.426L151.819 347.5L130.607 368.713L0 238.106L130.607 107.5Z"
-            fill="black"
+            fill="white"
           />
         </g>
         <defs>
@@ -74,7 +76,6 @@ function SamplePrevArrow(props) {
 
 export default function SimpleSlider() {
   var settings = {
-    dots: true,
     fade: true,
     infinite: true,
     speed: 500,
@@ -87,30 +88,21 @@ export default function SimpleSlider() {
     <Wrap>
       <Slider {...settings}>
         <div>
-          <Image src="/melodrom-4.jpg" width={480} height={380} />
+          <Image src="/0001.jpg" width={470} height={420} />
         </div>
         <div>
-          <Image src="/melodrom-1.jpg" width={480} height={380} />
+          <Image src="/0002.jpg" width={470} height={420} />
         </div>
         <div>
-          <Image src="/melodrom-2.jpg" width={480} height={380} />
+          <Image src="/0003.jpg" width={470} height={420} />
         </div>
         <div>
-          <Image src="/melodrom-3.jpg" width={480} height={380} />
+          <Image src="/0004.jpg" width={470} height={420} />
         </div>
+       
+       
 
-        <div>
-          <Image src="/melodrom-5.jpg" width={480} height={380} />
-        </div>
-        <div>
-          <Image src="/melodrom-6.jpg" width={480} height={380} />
-        </div>
-        <div>
-          <Image src="/melodrom-7.jpg" width={480} height={380} />
-        </div>
-        <div>
-          <Image src="/melodrom-8.jpg" width={480} height={380} />
-        </div>
+      
       </Slider>
     </Wrap>
   );

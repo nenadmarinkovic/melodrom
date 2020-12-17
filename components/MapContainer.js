@@ -14,28 +14,16 @@ function MapContainer() {
   return (
     <BannerWrap>
       <BannerLeft>
-        <ReasonTitle id="location">Како до Мелодрома?</ReasonTitle>
-        <MainText>
-          Мелодром се налази недалеко од зграде општине Лапово, у улици Николе
-          Пашића 7.
-          <br></br>
-          <br></br>
-          Уколико немате начина да сами дођете до нас, за Вас и ваше дете имамо
-          организован превоз...
-        </MainText>
-        <MapComponent />
-      </BannerLeft>
-      <BannerRight>
-        <ReasonTitleWhite>Слободни термини</ReasonTitleWhite>
-        <TerminText>
+        <ReasonTitle id="location">Слободни термини</ReasonTitle>
+        <TerminText style={{ paddingTop: "30px" }}>
           <div>
             <svg
-              fill="white"
+              fill="black"
               id="Capa_1"
               enableBackground="new 0 0 443.294 443.294"
-              height="30"
+              height="30px"
               viewBox="0 0 443.294 443.294"
-              width="30"
+              width="30px"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path d="m221.647 0c-122.214 0-221.647 99.433-221.647 221.647s99.433 221.647 221.647 221.647 221.647-99.433 221.647-221.647-99.433-221.647-221.647-221.647zm0 415.588c-106.941 0-193.941-87-193.941-193.941s87-193.941 193.941-193.941 193.941 87 193.941 193.941-87 193.941-193.941 193.941z" />
@@ -48,12 +36,12 @@ function MapContainer() {
         <TerminText>
           <div>
             <svg
-              fill="white"
+              fill="black"
               id="Capa_1"
               enableBackground="new 0 0 443.294 443.294"
-              height="30"
+              height="30px"
               viewBox="0 0 443.294 443.294"
-              width="30"
+              width="30px"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path d="m221.647 0c-122.214 0-221.647 99.433-221.647 221.647s99.433 221.647 221.647 221.647 221.647-99.433 221.647-221.647-99.433-221.647-221.647-221.647zm0 415.588c-106.941 0-193.941-87-193.941-193.941s87-193.941 193.941-193.941 193.941 87 193.941 193.941-87 193.941-193.941 193.941z" />
@@ -66,12 +54,12 @@ function MapContainer() {
         <TerminText>
           <div>
             <svg
-              fill="white"
+              fill="black"
               id="Capa_1"
               enableBackground="new 0 0 443.294 443.294"
-              height="30"
+              height="30px"
               viewBox="0 0 443.294 443.294"
-              width="30"
+              width="30px"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path d="m221.647 0c-122.214 0-221.647 99.433-221.647 221.647s99.433 221.647 221.647 221.647 221.647-99.433 221.647-221.647-99.433-221.647-221.647-221.647zm0 415.588c-106.941 0-193.941-87-193.941-193.941s87-193.941 193.941-193.941 193.941 87 193.941 193.941-87 193.941-193.941 193.941z" />
@@ -84,12 +72,12 @@ function MapContainer() {
         <TerminText>
           <div>
             <svg
-              fill="white"
+              fill="black"
               id="Capa_1"
               enableBackground="new 0 0 443.294 443.294"
-              height="30"
+              height="30px"
               viewBox="0 0 443.294 443.294"
-              width="30"
+              width="30px"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path d="m221.647 0c-122.214 0-221.647 99.433-221.647 221.647s99.433 221.647 221.647 221.647 221.647-99.433 221.647-221.647-99.433-221.647-221.647-221.647zm0 415.588c-106.941 0-193.941-87-193.941-193.941s87-193.941 193.941-193.941 193.941 87 193.941 193.941-87 193.941-193.941 193.941z" />
@@ -102,12 +90,12 @@ function MapContainer() {
         <TerminText>
           <div>
             <svg
-              fill="white"
+              fill="black"
               id="Capa_1"
               enableBackground="new 0 0 443.294 443.294"
-              height="30"
+              height="30px"
               viewBox="0 0 443.294 443.294"
-              width="30"
+              width="30px"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path d="m221.647 0c-122.214 0-221.647 99.433-221.647 221.647s99.433 221.647 221.647 221.647 221.647-99.433 221.647-221.647-99.433-221.647-221.647-221.647zm0 415.588c-106.941 0-193.941-87-193.941-193.941s87-193.941 193.941-193.941 193.941 87 193.941 193.941-87 193.941-193.941 193.941z" />
@@ -117,6 +105,19 @@ function MapContainer() {
 
           <span style={{ marginLeft: "20px" }}> Петак</span>
         </TerminText>
+      </BannerLeft>
+      <BannerRight>
+        <ReasonTitleWhite>Локација</ReasonTitleWhite>
+        <MainText>
+          Мелодром се налази недалеко од зграде општине Лапово, у улици Николе
+          Пашића 7.
+          <br></br>
+          <br></br>
+          Уколико немате начина да сами дођете до нас, за Вас и ваше дете имамо
+          организован превоз...
+        </MainText>
+
+        <MapComponent />
       </BannerRight>
     </BannerWrap>
   );

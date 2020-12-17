@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const Wrap = styled.div`
-  background: #faf7f7;
-  height: 500px;
+  background: #EFF0EC;
+  height: 520px;
 `;
 
 export const Text = styled.div`
-  padding-top: 150px;
+  padding-top: 100px;
   font-size: 26px;
   text-align: center;
   line-height: 1.5;

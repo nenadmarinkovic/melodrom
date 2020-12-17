@@ -22,11 +22,15 @@ export const BannerRight = styled.div`
 `;
 
 export const ReasonTitle = styled.div`
-  font-size: 16px;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 1.5;
-  padding-top: 50px;
+font-family: "Gotham", serif;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.8;
+text-align: center;
+line-height: 1.5;
+padding-top: 50px;
 `;
 
 export const MainText = styled.div`
@@ -34,22 +38,29 @@ export const MainText = styled.div`
   text-align: center;
   line-height: 1.5;
   margin-top: 30px;
+  color: white;
+  padding: 18px;
+  text-align: center;
 `;
 
 export const TerminText = styled.div`
   font-size: 18px;
   line-height: 1.5;
   margin-top: 30px;
-  color: white;
+
   display: flex;
   align-items: center;
 `;
 
 export const ReasonTitleWhite = styled.div`
-  font-size: 16px;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 1.5;
-  color: white;
-  padding-top: 50px;
+font-family: "Gotham", serif;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.8;
+text-align: center;
+line-height: 1.5;
+padding-top: 50px;
+color: white;
 `;
