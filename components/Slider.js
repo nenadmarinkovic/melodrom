@@ -88,16 +88,16 @@ export default function SimpleSlider() {
     <Wrap>
       <Slider {...settings}>
         <div>
-          <Image src="/0001.jpg" width={470} height={420} />
+          <Image src="/0001-min.jpg" width={470} height={420} />
         </div>
         <div>
-          <Image src="/0002.jpg" width={470} height={420} />
+          <Image src="/0002-min.jpg" width={470} height={420} />
         </div>
         <div>
-          <Image src="/0003.jpg" width={470} height={420} />
+          <Image src="/0003-min.jpg" width={470} height={420} />
         </div>
         <div>
-          <Image src="/0004.jpg" width={470} height={420} />
+          <Image src="/0004-min.jpg" width={470} height={420} />
         </div>
        
        

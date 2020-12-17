@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const Wrap = styled.div`
   background: #eff0ec;
-  height: 600px;
+  height: 500px;
 `;
 
 export const Text = styled.div`
-  padding-top: 100px;
+  padding-top: 60px;
   font-size: 18px;
   text-align: center;
   line-height: 1.8;
@@ -14,7 +14,7 @@ export const Text = styled.div`
 `;
 
 export const CenteredText = styled.div`
-  width: 700px;
+  width: 640px;
   max-width: 100%;
   margin: 0px auto;
 `;
@@ -29,7 +29,7 @@ export const FlexItem = styled.div`
   align-items: center;
   justify-content: end;
   margin-top: 30px;
-  font-size: 23px;
+  font-size: 21px;
 `;
 
 export const FlexText = styled.div`

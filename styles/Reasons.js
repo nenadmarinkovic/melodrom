@@ -36,7 +36,7 @@ export const ReasonTitle = styled.div`
   line-height: 1.8;
   text-align: center;
   line-height: 1.5;
-  padding-top: 50px;
+  padding-top: 60px;
 `;
 
 export const MainText = styled.div`

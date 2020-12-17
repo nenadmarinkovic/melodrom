@@ -751,7 +751,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	-ms-user-select: none;
 	user-select: none;
 	pointer-events: none;
-	width: 300px;
+	width: 320px;
 	text-align: center;
 	background-color: white;
 

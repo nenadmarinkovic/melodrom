@@ -6,7 +6,7 @@ function About() {
   return (
     <Wrap>
       <Image
-        src="/cover-down.jpg"
+        src="/cover-down-min.jpg"
         width={650}
         height={230}
         layout={"responsive"}

@@ -30,7 +30,7 @@ font-size: 14px;
 line-height: 1.8;
 text-align: center;
 line-height: 1.5;
-padding-top: 50px;
+padding-top: 30px;
 `;
 
 export const MainText = styled.div`
@@ -61,6 +61,6 @@ font-size: 14px;
 line-height: 1.8;
 text-align: center;
 line-height: 1.5;
-padding-top: 50px;
+padding-top: 30px;
 color: white;
 `;
