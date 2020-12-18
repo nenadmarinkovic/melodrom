@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const BannerWrap = styled.div`
   display: flex;
+
+  @media (max-width: 1100px) {
+    flex-direction: column;
+  }
 `;
 
 export const SVG = styled.svg`
@@ -16,6 +20,10 @@ export const BannerLeft = styled.div`
   padding: 30px 80px 80px;
   background: #7a909d;
   color: white;
+
+  @media (max-width: 1100px) {
+    width: 100%;
+  }
 `;
 
 export const BannerRight = styled.div`
@@ -25,6 +33,10 @@ export const BannerRight = styled.div`
   padding: 30px 80px 80px;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 1100px) {
+    width: 100%;
+  }
 `;
 
 export const ReasonTitle = styled.div`

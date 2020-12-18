@@ -6,6 +6,10 @@ export const Wrap = styled.div`
   line-height: 1.7;
   font-size: 21px;
   text-align: center;
+
+  @media (max-width: 1100px) {
+    margin-top: 80px;
+  }
 `;
 
 export const Text = styled.div`
@@ -14,11 +18,12 @@ export const Text = styled.div`
   line-height: 1.5;
   display: flex;
 
+  @media (max-width: 1100px) {
+    justify-content: center;
+  }
 `;
 
-export const CenteredText = styled.div`
- 
-`;
+export const CenteredText = styled.div``;
 
 export const SubText = styled.div`
   font-size: 16px;
@@ -30,5 +35,5 @@ export const SubText = styled.div`
 
 export const SVG = styled.svg`
   width: 15%;
-  height: 20px
+  height: 20px;
 `;

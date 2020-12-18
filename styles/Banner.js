@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const BannerWrap = styled.div`
   display: flex;
+  @media (max-width: 1100px) {
+    flex-direction: column;
+  }
 `;
 
 export const Text = styled.div``;
@@ -11,6 +14,14 @@ export const BannerLeft = styled.div`
   z-index: 1;
   position: relative;
   padding: 60px 80px 180px;
+
+  @media (max-width: 1420px) {
+    padding: 60px 30px 180px;
+  }
+
+  @media (max-width: 1100px) {
+    width: 100%;
+  }
 `;
 
 export const BannerRight = styled.div`
@@ -22,14 +33,34 @@ export const BannerRight = styled.div`
   padding: 60px 80px 180px;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 1420px) {
+    padding: 60px 30px 180px;
+  }
+
+  @media (max-width: 1100px) {
+    width: 100%;
+    margin-top: -80px;
+  }
 `;
 
 export const Piano = styled.div`
   padding-top: 210px;
+  @media (max-width: 1240px) {
+    padding-top: 170px;
+  }
 `;
 
 export const BannerText = styled.div`
   padding-top: 210px;
+
+  @media (max-width: 1240px) {
+    padding-top: 130px;
+  }
+
+  @media (max-width: 1100px) {
+    text-align: center;
+  }
 `;
 
 export const Logo = styled.div`
@@ -71,6 +102,9 @@ export const HeaderItems = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  @media (max-width: 1100px) {
+    display: none;
+  }
 `;
 
 export const HeaderItem = styled.div`
@@ -82,6 +116,10 @@ export const HeaderItem = styled.div`
   :hover {
     cursor: pointer;
     border-bottom: 1px solid white;
+  }
+
+  @media (max-width: 1240px) {
+    margin-left: 20px;
   }
 `;
 
@@ -99,6 +137,10 @@ export const FlexArrow = styled.div`
   display: flex;
   align-items: center;
   margin-top: 20px;
+
+  @media (max-width: 1100px) {
+   justify-content: center;
+   }
 `;
 
 export const ArrowText = styled.p`
