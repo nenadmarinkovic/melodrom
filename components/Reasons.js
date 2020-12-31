@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link"
 import Slider from "../components/Slider";
 import SliderText from "../components/SliderText";
 import {
@@ -7,6 +8,7 @@ import {
   BannerLeft,
   MainText,
   ReasonTitle,
+  More,
 } from "../styles/Reasons";
 
 function Reasons() {
@@ -15,15 +17,17 @@ function Reasons() {
       <BannerLeft>
         <ReasonTitle>Мелодром</ReasonTitle>
         <MainText>
-          Дејана Банковић је педагог, наставница клавира и солфеђа, заљубљеница
-          у музику која преко Мелодрома жели да приближи музику свима, а посебно
-          најмлађима.
+          Дејана Банковић је музички педагог, наставница клавира и солфеђа,
+          композитор, диригент, заљубљеница у музику која преко Мелодрома жели
+          да приближи музику свима, а посебно најмлађима.
         </MainText>
+        <More>
+          <Link href="/o-meni">Више о мени</Link>
+        </More>
         <Slider />
       </BannerLeft>
       <BannerRight>
         <ReasonTitle>Музика</ReasonTitle>
-
         <SliderText />
       </BannerRight>
     </BannerWrap>

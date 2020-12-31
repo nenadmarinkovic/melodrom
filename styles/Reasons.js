@@ -13,6 +13,12 @@ export const SVG = styled.svg`
   height: 30px;
 `;
 
+export const More = styled.div`
+  margin-top: 20px;
+  text-align: center;
+  cursor: pointer;
+`;
+
 export const BannerLeft = styled.div`
   width: 50%;
   z-index: 1;

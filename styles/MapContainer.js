@@ -16,6 +16,7 @@ export const BannerLeft = styled.div`
 
   @media (max-width: 1100px) {
     width: 100%;
+    padding: 30px 30px 80px;
   }
 `;
 
@@ -30,6 +31,7 @@ export const BannerRight = styled.div`
 
   @media (max-width: 1100px) {
     width: 100%;
+    padding: 30px 30px 80px;
   }
 `;
 

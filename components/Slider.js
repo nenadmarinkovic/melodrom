@@ -99,10 +99,6 @@ export default function SimpleSlider() {
         <div>
           <Image src="/0004-min.jpg" width={470} height={420} />
         </div>
-       
-       
-
-      
       </Slider>
     </Wrap>
   );

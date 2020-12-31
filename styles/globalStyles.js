@@ -802,6 +802,10 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	}
 .leaflet-tooltip-left {
 	margin-left: -6px;
+	@media (max-width: 1100px) {
+		margin-left: 15px;
+	  }
+	
 }
 .leaflet-tooltip-right {
 	margin-left: 6px;

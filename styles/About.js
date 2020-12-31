@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrap = styled.div`
-  background: #EFF0EC;
+  background: #eff0ec;
   height: 520px;
 `;
 
@@ -12,6 +12,10 @@ export const Text = styled.div`
   line-height: 1.5;
   display: flex;
 
+  @media (max-width: 1100px) {
+    padding: 100px 30px 0 30px;
+    font-size: 21px;
+  }
 `;
 
 export const CenteredText = styled.div`
@@ -30,5 +34,5 @@ export const SubText = styled.div`
 
 export const SVG = styled.svg`
   width: 30%;
-  height: 30px
+  height: 30px;
 `;
