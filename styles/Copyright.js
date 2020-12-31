@@ -10,6 +10,10 @@ export const Wrap = styled.div`
   @media (max-width: 1045px) {
     padding-top: 75px;
   }
+
+  @media (max-width: 580px) {
+    line-height: 1.8;
+  }
 `;
 
 export const Created = styled.div`

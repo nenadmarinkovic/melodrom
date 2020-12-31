@@ -9,6 +9,11 @@ export const Wrap = styled.div`
   @media (max-width: 1100px) {
     margin-top: 80px;
   }
+  @media (max-width: 620px) {
+    padding: 30px;
+    padding-bottom: 120px;
+    margin-top: 20px;
+  }
 `;
 
 export const Text = styled.div`

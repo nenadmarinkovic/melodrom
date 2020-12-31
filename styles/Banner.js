@@ -22,6 +22,10 @@ export const BannerLeft = styled.div`
   @media (max-width: 1100px) {
     width: 100%;
   }
+
+  @media (max-width: 520px) {
+    padding: 20px 30px 180px;
+  }
 `;
 
 export const BannerRight = styled.div`
@@ -42,12 +46,20 @@ export const BannerRight = styled.div`
     width: 100%;
     margin-top: -80px;
   }
+
+  @media (max-width: 620px) {
+    padding-bottom: 60px;
+  }
 `;
 
 export const Piano = styled.div`
   padding-top: 210px;
   @media (max-width: 1240px) {
     padding-top: 170px;
+  }
+
+  @media (max-width: 620px) {
+    padding-top: 40px;
   }
 `;
 
@@ -60,6 +72,10 @@ export const BannerText = styled.div`
 
   @media (max-width: 1100px) {
     text-align: center;
+  }
+
+  @media (max-width: 620px) {
+    padding-top: 80px;
   }
 `;
 
@@ -85,6 +101,10 @@ export const MainText = styled.div`
   font-size: 48px;
   font-family: "Gotham";
   line-height: 1.3;
+
+  @media (max-width: 360px) {
+    font-size: 32px;
+  }
 `;
 
 export const SubText = styled.div`
@@ -139,8 +159,8 @@ export const FlexArrow = styled.div`
   margin-top: 20px;
 
   @media (max-width: 1100px) {
-   justify-content: center;
-   }
+    justify-content: center;
+  }
 `;
 
 export const ArrowText = styled.p`

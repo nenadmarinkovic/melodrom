@@ -18,6 +18,10 @@ export const BannerLeft = styled.div`
     width: 100%;
     padding: 30px 30px 80px;
   }
+  @media (max-width: 700px) {
+    width: 100%;
+    padding: 30px 30px 20px;
+  }
 `;
 
 export const BannerRight = styled.div`
@@ -36,15 +40,15 @@ export const BannerRight = styled.div`
 `;
 
 export const ReasonTitle = styled.div`
-font-family: "Gotham", serif;
-letter-spacing: 1px;
-text-transform: uppercase;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.8;
-text-align: center;
-line-height: 1.5;
-padding-top: 30px;
+  font-family: "Gotham", serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.8;
+  text-align: center;
+  line-height: 1.5;
+  padding-top: 30px;
 `;
 
 export const MainText = styled.div`
@@ -67,14 +71,14 @@ export const TerminText = styled.div`
 `;
 
 export const ReasonTitleWhite = styled.div`
-font-family: "Gotham", serif;
-letter-spacing: 1px;
-text-transform: uppercase;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.8;
-text-align: center;
-line-height: 1.5;
-padding-top: 30px;
-color: white;
+  font-family: "Gotham", serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.8;
+  text-align: center;
+  line-height: 1.5;
+  padding-top: 30px;
+  color: white;
 `;

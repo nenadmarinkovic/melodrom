@@ -11,6 +11,11 @@ export const Text = styled.div`
   line-height: 1.8;
   display: flex;
   padding-bottom: 80px;
+
+  @media (max-width: 700px) {
+    padding-top: 20px;
+    text-align: start;
+  }
 `;
 
 export const CenteredText = styled.div`
@@ -38,13 +43,28 @@ export const FlexItem = styled.div`
     padding: 30px;
     margin-top: 0;
   }
+
+  @media (max-width: 700px) {
+    padding: 10px;
+    align-items: start;
+  
+  }
 `;
 
 export const FlexText = styled.div`
   margin-left: 30px;
   font-size: 15px;
+
+  @media (max-width: 700px) {
+    margin-left: 0;
+    align-items: start;
+  }
 `;
 
 export const FlexSVG = styled.div`
   margin-top: 10px;
+
+  @media (max-width: 700px) {
+    display: none;
+  }
 `;

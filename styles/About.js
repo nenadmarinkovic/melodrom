@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const Wrap = styled.div`
   background: #eff0ec;
   height: 520px;
+
+  @media (max-width: 520px) {
+    height: 580px;
+  }
 `;
 
 export const Text = styled.div`
@@ -16,6 +20,7 @@ export const Text = styled.div`
     padding: 100px 30px 0 30px;
     font-size: 21px;
   }
+
 `;
 
 export const CenteredText = styled.div`

@@ -43,6 +43,10 @@ export const MainForm = styled.main`
   @media (max-width: 768px) {
     width: 100%;
   }
+
+  @media (max-width: 520px) {
+    padding-bottom: 20px;
+  }
 `;
 
 export const FormContainer = styled.form`
@@ -58,6 +62,10 @@ export const FormLabel = styled.label`
   :focus {
     outline: none;
     box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
+  }
+
+  @media (max-width: 520px) {
+    font-size: 12px;
   }
 `;
 
@@ -151,6 +159,4 @@ export const FlexSocial = styled.div`
   margin-top: 20px;
 `;
 
-export const Link = styled.a`
-  
-`;
+export const Link = styled.a``;

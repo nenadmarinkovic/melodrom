@@ -30,6 +30,10 @@ export const BannerLeft = styled.div`
   @media (max-width: 1100px) {
     width: 100%;
   }
+
+  @media (max-width: 520px) {
+    padding: 20px 40px 80px;
+  }
 `;
 
 export const BannerRight = styled.div`
@@ -42,6 +46,10 @@ export const BannerRight = styled.div`
 
   @media (max-width: 1100px) {
     width: 100%;
+  }
+
+  @media (max-width: 520px) {
+    padding: 20px 40px 80px;
   }
 `;
 
@@ -67,6 +75,10 @@ export const MainText = styled.div`
   justify-content: space-between;
   padding: 18px;
   text-align: center;
+
+  @media (max-width: 520px) {
+    padding: 0;
+  }
 `;
 
 export const MainTextLeft = styled.div`
