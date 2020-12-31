@@ -1,26 +1,26 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import styled from "styled-components";
 import { useOnClickOutside } from "../hooks";
 import ScrollIntoView from "react-scroll-into-view";
 import { HeaderItem } from "../styles/Banner";
+import useScrollPosition from "@react-hook/window-scroll";
 
-const StyledMenu = styled.nav`
-  display: flex;
-  flex-direction: column;
+const StyledMenu = styled.div`
   background: white;
   border-left: 1px solid #eaeaea;
   border-bottom: 1px solid #eaeaea;
-  transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
+  transform: ${({ open }) => (open ? "translateX(0%)" : "translateX(100%)")};
   height: 300px;
   text-align: left;
   padding: 80px 20px;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   transition: transform 0.3s ease-in-out;
 `;
 const MenuItem = styled.div`
   color: black;
+
   margin-top: 30px;
   :hover {
     cursor: pointer;
@@ -107,8 +107,15 @@ const Burger = ({ open, setOpen }) => {
 function Menu() {
   const [open, setOpen] = useState(false);
   const node = useRef();
-
+  const scrollY = useScrollPosition(60 /*frames per second*/);
   useOnClickOutside(node, () => setOpen(false));
+
+  useEffect(() => {
+    if (scrollY > 0) {
+      setOpen(false);
+    }
+  });
+
   return (
     <div>
       <div ref={node}>

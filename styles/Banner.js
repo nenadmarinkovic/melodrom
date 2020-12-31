@@ -181,6 +181,7 @@ export const MenuDiv = styled.div`
 display: none;
 
 @media (max-width: 1100px) {
-  display: block;
+  display: unset;
+ 
 }
 `;
