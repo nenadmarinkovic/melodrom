@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Wrap = styled.div`
   background: #eff0ec;
-
 `;
 
 export const Text = styled.div`
@@ -43,6 +42,7 @@ export const FlexItem = styled.div`
 
 export const FlexText = styled.div`
   margin-left: 30px;
+  font-size: 15px;
 `;
 
 export const FlexSVG = styled.div`

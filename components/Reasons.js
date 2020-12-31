@@ -22,7 +22,7 @@ function Reasons() {
           да приближи музику свима, а посебно најмлађима.
         </MainText>
         <More>
-          <Link href="/o-meni">Више о мени</Link>
+          <Link href="/o-meni">Више о Дејани Банковић</Link>
         </More>
         <Slider />
       </BannerLeft>

@@ -47,6 +47,12 @@ const GlobalStyle = createGlobalStyle`
 	margin: 0px auto;
   }
 
+  .container-slider-music {
+	width: 800px;
+    max-width: 100%;
+	margin: 0px auto;
+  }
+
   .cover-image {
 	position: relative;
 	
