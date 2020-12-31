@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const FormText = styled.div`
-  padding: 80px 0 20px;
+  padding: 30px 0 20px;
   margin-top: 10px;
-  font-size: 21px;
+  font-size: 18px;
   text-align: center;
   line-height: 1.5;
   color: white;
@@ -137,4 +137,20 @@ export const Copyright = styled.span`
   display: block;
   text-align: center;
   padding: 20px 0;
+`;
+
+export const Social = styled.div`
+  margin-top: 55px;
+  text-align: center;
+  font-size: 18px;
+`;
+
+export const FlexSocial = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+`;
+
+export const Link = styled.a`
+  
 `;

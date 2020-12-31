@@ -7,7 +7,7 @@ function Offer() {
   return (
     <Wrap>
       <div className="container-slider-music">
-      <ReasonTitle>Програм</ReasonTitle>
+      <ReasonTitle>Музика</ReasonTitle>
         <SliderMusic />
       </div>
     </Wrap>

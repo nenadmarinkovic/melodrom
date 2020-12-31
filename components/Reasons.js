@@ -27,7 +27,7 @@ function Reasons() {
         <Slider />
       </BannerLeft>
       <BannerRight>
-        <ReasonTitle>Музика</ReasonTitle>
+        <ReasonTitle>Рекли су о музици</ReasonTitle>
         <SliderText />
       </BannerRight>
     </BannerWrap>

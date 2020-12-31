@@ -7,7 +7,7 @@ export const Wrap = styled.div`
 
 export const Text = styled.div`
   padding-top: 100px;
-  font-size: 26px;
+  font-size: 24px;
   text-align: center;
   line-height: 1.5;
   display: flex;

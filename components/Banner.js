@@ -82,8 +82,8 @@ function Banner() {
             <HeaderItem>О радионици</HeaderItem>
           </ScrollIntoView>
 
-          <ScrollIntoView selector="#location" smooth={true}>
-            <HeaderItem>Слободни термини и локација</HeaderItem>
+          <ScrollIntoView selector="#program" smooth={true}>
+            <HeaderItem>Програм и локација</HeaderItem>
           </ScrollIntoView>
 
           <ScrollIntoView selector="#contact" smooth={true}>

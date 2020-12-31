@@ -23,7 +23,7 @@ function MapContainer() {
     <BannerWrap>
       <BannerLeft>
       <CenteredText>
-        <ReasonTitle>Програм</ReasonTitle>
+        <ReasonTitle id="program">Програм</ReasonTitle>
         <Text>
           <div>
             <FlexItem>
