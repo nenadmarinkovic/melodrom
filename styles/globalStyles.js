@@ -144,6 +144,12 @@ const GlobalStyle = createGlobalStyle`
 	margin-bottom: 30px;
 	margin-left: 15px;
 	margin-right: 15px;
+
+	@media (max-width: 520px) {
+		margin-top: 20px;
+		margin-left: 0;
+		margin-right: 0;
+	  }
 	
   }
 

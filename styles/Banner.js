@@ -16,7 +16,7 @@ export const BannerLeft = styled.div`
   padding: 60px 80px 180px;
 
   @media (max-width: 1420px) {
-    padding: 60px 30px 180px;
+    padding: 20px 30px 180px;
   }
 
   @media (max-width: 1100px) {
@@ -102,7 +102,7 @@ export const MainText = styled.div`
   font-family: "Gotham";
   line-height: 1.3;
 
-  @media (max-width: 360px) {
+  @media (max-width: 520px) {
     font-size: 32px;
   }
 `;
@@ -175,4 +175,12 @@ export const PianoText = styled.div`
   text-align: end;
   margin-top: 20px;
   font-size: 14px;
+`;
+
+export const MenuDiv = styled.div`
+display: none;
+
+@media (max-width: 1100px) {
+  display: block;
+}
 `;

@@ -5,7 +5,7 @@ export const Wrap = styled.div`
   height: 520px;
 
   @media (max-width: 520px) {
-    height: 580px;
+    height: 450px;
   }
 `;
 
@@ -19,6 +19,10 @@ export const Text = styled.div`
   @media (max-width: 1100px) {
     padding: 100px 30px 0 30px;
     font-size: 21px;
+  }
+
+  @media (max-width: 520px) {
+    padding: 40px 30px 0 30px;
   }
 
 `;

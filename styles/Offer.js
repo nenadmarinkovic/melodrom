@@ -16,6 +16,10 @@ export const Text = styled.div`
     padding-top: 20px;
     text-align: start;
   }
+
+  @media (max-width: 520px) {
+    padding-bottom: 20px;
+  }
 `;
 
 export const CenteredText = styled.div`

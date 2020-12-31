@@ -16,22 +16,29 @@ import {
   ArrowText,
   Piano,
   BannerText,
+  MenuDiv,
 } from "../styles/Banner";
 import ScrollIntoView from "react-scroll-into-view";
 
 import App from "../components/Dynamic";
+import Menu from "./Menu";
 
 function Banner() {
   return (
     <BannerWrap>
       <BannerLeft>
         <Logo>
+          <MenuDiv>
+            <Menu />
+          </MenuDiv>
+
           <Image src="/piano.svg" width={30} height={30} />
 
           <LogoText>
             <Link href="/">Мелодром</Link>
           </LogoText>
         </Logo>
+
         <BannerText>
           <MainText>Добродошли у Мелодром</MainText>
           <SubText>
