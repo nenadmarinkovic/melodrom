@@ -11,6 +11,10 @@ export const Text = styled.div``;
 export const BigText = styled.div`
   font-size: 52px;
   font-weight: 900;
+
+  @media (max-width: 620px) {
+    font-size: 32px;
+  }
 `;
 
 export const BannerLeft = styled.div`
@@ -26,6 +30,10 @@ export const BannerLeft = styled.div`
 
   @media (max-width: 1100px) {
     width: 100%;
+  }
+
+  @media (max-width: 620px) {
+    padding: 60px 30px 100px;
   }
 `;
 
@@ -48,6 +56,10 @@ export const BannerRight = styled.div`
     width: 100%;
     margin-top: -80px;
   }
+
+  @media (max-width: 620px) {
+    padding: 0 30px 100px;
+  }
 `;
 
 export const BannerText = styled.div`
@@ -59,6 +71,14 @@ export const BannerText = styled.div`
 
   @media (max-width: 1100px) {
     text-align: center;
+  }
+
+  @media (max-width: 620px) {
+    padding-top: 30px;
+  }
+
+  @media (max-width: 620px) {
+    text-align: start;
   }
 `;
 
