@@ -191,7 +191,7 @@ export default function ContactForm() {
             </Link>
 
             <Link
-              href="https://youtube.com/melodromrs"
+              href="https://www.youtube.com/channel/UC2FcLkr7emc0nPCc6fvz9jg"
               target="_blank"
               rel="noreferrer"
             >
