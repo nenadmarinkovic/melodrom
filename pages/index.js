@@ -26,6 +26,8 @@ export default function Home() {
           type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
+         <meta property="og:title" content="Melodrom" key="title" />
+        <meta property="og:image" content="/cover-min.jpg" />
       </Head>
       <GlobalStyle />
       <Banner />
