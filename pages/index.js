@@ -19,18 +19,18 @@ export default function Home() {
       description="Melodrom - muzička radionica klavira, solfeđa, kao i rada sa pevačkim društvima."
       canonical="https://www.melodrom.rs/"
       openGraph={{
-        url: 'https://www.url.ie/a',
-        title: 'Open Graph Title',
-        description: 'Open Graph Description',
+        url: 'https://www.melodrom.rs/',
+        title: 'Melodrom',
+        description: 'Muzička radionica klavira, solfeđa, kao i rada sa pevačkim društvima',
         images: [
           {
-            url: '/preview.png',
+            url: 'https://melodrom.rs/_next/image?url=%2Fcover-min.jpg&w=3840&q=75',
             width: 800,
             height: 600,
             alt: 'Og Image Alt',
           },
           {
-            url: '/preview.png',
+            url: 'https://melodrom.rs/_next/image?url=%2Fcover-min.jpg&w=3840&q=75',
             width: 900,
             height: 800,
             alt: 'Og Image Alt Second',
