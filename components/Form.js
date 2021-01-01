@@ -26,7 +26,8 @@ export default function ContactForm() {
   const [inputs, setInputs] = useState({
     Name: "",
     Email: "",
-    Linkedin: "",
+    Number: "",
+    Message: "",
   });
 
   const handleServerResponse = (ok, msg) => {
@@ -40,7 +41,8 @@ export default function ContactForm() {
       setInputs({
         Name: "",
         Email: "",
-        Linkedin: "",
+        Number: "",
+        Message: "",
       });
     } else {
       setStatus({
@@ -69,7 +71,7 @@ export default function ContactForm() {
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
     axios({
       method: "POST",
-      url: "https://formspree.io/f/xpzoyzwj",
+      url: "https://formspree.io/f/xleookly",
       data: inputs,
     })
       .then((response) => {
@@ -122,24 +124,24 @@ export default function ContactForm() {
             </FlexItem>
 
             <FlexItem>
-              <FormLabel htmlFor="Email">Ваш број телефона:</FormLabel>
+              <FormLabel htmlFor="Number">Ваш број телефона:</FormLabel>
               <FormInput
-                id="Email"
-                type="Email"
+                id="Number"
+                type="Number"
                 name="_replyto"
                 onChange={handleOnChange}
                 required
-                value={inputs.Email}
+                value={inputs.Number}
               />
             </FlexItem>
             <FlexItem>
-              <FormLabel htmlFor="message">Ваша порука или питање:</FormLabel>
+              <FormLabel htmlFor="Message">Ваша порука или питање:</FormLabel>
               <TextArea
-                id="message"
-                name="message"
+                id="Message"
+                name="Message"
                 onChange={handleOnChange}
                 required
-                value={inputs.message}
+                value={inputs.Message}
               />
             </FlexItem>
 
