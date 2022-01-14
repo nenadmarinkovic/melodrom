@@ -4,7 +4,7 @@ import { Wrap, Created } from "../styles/Copyright";
 function Copyright() {
     return (
         <Wrap>
-        © {new Date().getFullYear()} Школа клавира и солфеђа Мелодром <br />
+        © {new Date().getFullYear()} Школа клавира и солфеђа Мелодрам <br />
         <Created>
           Design and development:{" "}
           <a

@@ -282,7 +282,7 @@ function MapContainer() {
       <BannerRight>
         <ReasonTitleWhite>Локација</ReasonTitleWhite>
         <MainText>
-          Мелодром се налази недалеко од зграде Oпштине Лапово, у улици Николе
+          Мелодрам се налази недалеко од зграде Oпштине Лапово, у улици Николе
           Пашића 7.
           <br></br>
           <br></br>

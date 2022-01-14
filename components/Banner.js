@@ -33,7 +33,7 @@ function Banner() {
             <Image src="/piano.svg" width={30} height={30} />
 
             <LogoText>
-              <Link href="/">Мелодром</Link>
+              <Link href="/">Мелодрам</Link>
             </LogoText>
           
          
@@ -44,9 +44,9 @@ function Banner() {
         </MenuDiv>
        
         <BannerText>
-          <MainText>Добродошли у Мелодром</MainText>
+          <MainText>Добродошли у Мелодрам</MainText>
           <SubText>
-            Мелодром је музичка радионица клавира, солфеђа, као и рада са
+            Мелодрам је музичка радионица клавира, солфеђа, као и рада са
             певачким друштвима и хоровима.
           </SubText>
           <FlexArrow>

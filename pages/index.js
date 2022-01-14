@@ -14,31 +14,31 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Melodrom"
-        description="Melodrom - muzička radionica klavira, solfeđa, kao i rada sa pevačkim društvima."
-        canonical="https://www.melodrom.rs/"
+        title="Melodram"
+        description="Melodram - muzička radionica klavira, solfeđa, kao i rada sa pevačkim društvima."
+        canonical="https://www.melodram.rs/"
         openGraph={{
-          url: "https://www.melodrom.rs/",
-          title: "Melodrom",
+          url: "https://www.melodram.rs/",
+          title: "Melodram",
           description:
             "Muzička radionica klavira, solfeđa, kao i rada sa pevačkim društvima",
           images: [
             {
               url:
-                "https://melodrom.rs/_next/image?url=%2Fcover-min.jpg&w=3840&q=75",
+                "https://melodram.rs/_next/image?url=%2Fcover-min.jpg&w=3840&q=75",
               width: 800,
               height: 600,
               alt: "Og Image Alt",
             },
             {
               url:
-                "https://melodrom.rs/_next/image?url=%2Fcover-min.jpg&w=3840&q=75",
+                "https://melodram.rs/_next/image?url=%2Fcover-min.jpg&w=3840&q=75",
               width: 900,
               height: 800,
               alt: "Og Image Alt Second",
             },
           ],
-          site_name: "Melodrom",
+          site_name: "Melodram",
         }}
         twitter={{
           handle: "@handle",
@@ -47,12 +47,12 @@ export default function Home() {
         }}
       />
       <Head>
-        <title>Мелодром - Радионица клавира и солфеђа</title>
+        <title>Мелодрам - Радионица клавира и солфеђа</title>
         <link rel="icon" href="/piano.png" />
         <link
           rel="stylesheet"
           type="text/css"
-          charset="UTF-8"
+          charSet="UTF-8"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
         />
         <link
@@ -60,7 +60,7 @@ export default function Home() {
           type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
-        <meta property="og:title" content="Melodrom" key="title" />
+        <meta property="og:title" content="Melodram" key="title" />
         <meta property="og:image" content="/cover-min.jpg" />
       </Head>
       <GlobalStyle />

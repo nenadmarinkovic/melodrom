@@ -7,12 +7,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Мелодром - Радионица клавира и солфеђа</title>
+        <title>Мелодрам - Радионица клавира и солфеђа</title>
         <link rel="icon" href="/piano.png" />
         <link
           rel="stylesheet"
           type="text/css"
-          charset="UTF-8"
+          charSet="UTF-8"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
         />
         <link

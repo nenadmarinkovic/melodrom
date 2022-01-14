@@ -158,10 +158,10 @@ export default function ContactForm() {
             <Message>{status.info.msg}</Message>
           )}
           <Social>
-            Мелодром је доступан и преко мејла или друштвених мрежа:
+            Мелодрам је доступан и преко мејла или друштвених мрежа:
           </Social>
           <FlexSocial>
-            <Link href="mailto:melodromradionica@yahoo.com">
+            <Link href="mailto:melodramradionica@yahoo.com">
               <svg
                 style={{ margin: "10px" }}
                 width="30px"
@@ -174,7 +174,7 @@ export default function ContactForm() {
               </svg>
             </Link>
             <Link
-              href="https://facebook.com/melodrom.rs"
+              href="https://facebook.com/melodram.rs"
               target="_blank"
               rel="noreferrer"
             >

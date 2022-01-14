@@ -19,7 +19,7 @@ function Banner() {
         <Logo>
           <Image src="/piano.svg" width={30} height={30} />
           <LogoText>
-            <Link href="/">Мелодром</Link>
+            <Link href="/">Мелодрам</Link>
           </LogoText>
         </Logo>
         <BannerText>
