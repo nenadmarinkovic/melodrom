@@ -1,4 +1,4 @@
-## Melodram 🎹
+## Melodrom 🎹
 
 Piano workshop and school.
 
